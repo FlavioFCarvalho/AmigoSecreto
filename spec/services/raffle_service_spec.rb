@@ -2,6 +2,7 @@ require 'rails_helper'
 
 describe RaffleService do
 
+  #Cria a campanha com o status pendente  
   before :each do
     @campaign = create(:campaign, status: :pending)
   end
